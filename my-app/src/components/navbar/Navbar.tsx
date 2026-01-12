@@ -8,7 +8,7 @@ const Navbar = () => {
       <Link href="/">Logo</Link>
       <div>
         {
-          links.map(link => <Link href={link.url} key={link.id}>{link.title}</Link>)
+          links?.map(link => <Link href={link.url} key={link.id}>{link.title}</Link>)
         }
       </div>
     </div>

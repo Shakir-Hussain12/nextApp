@@ -10,7 +10,7 @@ const Footer = () => {
         <h5>Copyrighted...All Rights Reserved.</h5>
         <div>
           {
-            socials.map((social) => {
+            socials?.map((social) => {
               return(
                 <Link key={social.id} href={social.url}>
                   <Image
