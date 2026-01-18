@@ -1,5 +1,5 @@
 import Image from 'next/image';
-// import Hero from 'public/images/Hero.png';
+import Hero from '@/assets/images/Hero.png';
 
 export default function Home() {
   return (
@@ -11,8 +11,7 @@ export default function Home() {
           <button className="item-btn">See Our Works</button>
         </div>
         <div className="item">
-          <Image src="/images/Hero.png" alt="hero-pic" width={500} height={500} className="img"> 
-          </Image>
+          <Image src={Hero} alt='hero-pic' className='img'></Image>
         </div>
       </div>
     </>
